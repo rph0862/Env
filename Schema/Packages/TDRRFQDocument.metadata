@@ -1,0 +1,205 @@
+<Package
+  Name="TDRRFQDocument"
+  Uuid="a4cba707-06c1-4fd3-b67b-9bc38f2577db"
+  UseNames="ERCoreModeler Document"
+  ModelerType="Specialization"
+  xmlns="PLMDictionaryUnified"
+>
+  <CAAComment> 
+    <Role>Adding Package for RFQDocument</Role>
+  </CAAComment>
+  <Property Name="CustoPrefix" Value="TDR"/>
+  <Property Name="CustoExportVersion" Value="Xport_R420.HF2"/>
+  <Property Name="LastModified" Value="1529327578141"/>
+  <Class
+    Name="TDRInternalRFQDocument"
+    SuperName="Document"
+    Abstract="No"
+    Uuid="93c8aca0-3602-46d9-ba7c-ca5a2f3c2444"
+  >
+    <CAAComment> 
+      <Role>Adding type InternalRFQDocument on Document</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRPORingi"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="fb602222-d11b-44c7-8855-aeb7cef72c25"
+  >
+    <CAAComment> 
+      <Role>Adding type PORingi on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRTechnicalEvaluationSheet"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="51f5e72f-765a-4ac0-beaa-ffc1e065e898"
+  >
+    <CAAComment> 
+      <Role>Adding type TechnicalEvaluationSheet on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRCBDSCheckSheet"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="56ccb745-021a-471b-84e0-4de8cce34a6d"
+  >
+    <CAAComment> 
+      <Role>Adding type CBDSCheckSheet on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRRingiDocument"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="7c6f70b8-3a34-4a57-b240-b1725dd6120a"
+  >
+    <CAAComment> 
+      <Role>Adding type RingiDocument on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRBOQConfirmation"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="e002bd2f-9b64-4be4-a20c-28355b78b9fc"
+  >
+    <CAAComment> 
+      <Role>Adding type BOQConfirmation on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRRFQCheckSheet"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="0c2789da-3e3e-4551-a2e6-0bf3e447c77f"
+  >
+    <CAAComment> 
+      <Role>Adding type RFQCheckSheet on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRDPMApproval"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="a90b392d-c03e-498e-8b3c-773c2a3a9571"
+  >
+    <CAAComment> 
+      <Role>Adding type DPMApproval on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRPriceBidOpeningRingi"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="daa5d4c3-c9f5-41ac-b821-e1b6bdd7323e"
+  >
+    <CAAComment> 
+      <Role>Adding type PriceBidOpeningRingi on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRRFQRingiIPR"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="a9d75388-1562-47ac-bdd4-316abe2560f0"
+  >
+    <CAAComment> 
+      <Role>Adding type RFQRingiIPR on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRTechnicalEvaluationChecksheet"
+    SuperName="TDRInternalRFQDocument"
+    Abstract="No"
+    Uuid="ac571b8e-a9ea-4ec4-882e-6a382f682c60"
+  >
+    <CAAComment> 
+      <Role>Adding type TechnicalEvaluationChecksheet on InternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRExternalRFQDocument"
+    SuperName="Document"
+    Abstract="No"
+    Uuid="5be8ee93-5242-4228-9fab-7ed47670fa61"
+  >
+    <CAAComment> 
+      <Role>Adding type ExternalRFQDocument on Document</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRSpecificationSheet"
+    SuperName="TDRExternalRFQDocument"
+    Abstract="No"
+    Uuid="b220dffe-a997-41ea-8936-dd1803dcab43"
+  >
+    <CAAComment> 
+      <Role>Adding type SpecificationSheet on ExternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRTermsandConditions"
+    SuperName="TDRExternalRFQDocument"
+    Abstract="No"
+    Uuid="8b151600-2a54-4c74-9591-119854beb2db"
+  >
+    <CAAComment> 
+      <Role>Adding type TermsandConditions on ExternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRSafetyCheckSheet"
+    SuperName="TDRExternalRFQDocument"
+    Abstract="No"
+    Uuid="5336a1cf-4c29-4be3-9330-525eb9b43789"
+  >
+    <CAAComment> 
+      <Role>Adding type SafetyCheckSheet on ExternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRMSILGCCTCC"
+    SuperName="TDRExternalRFQDocument"
+    Abstract="No"
+    Uuid="efe80f4a-d998-4cfe-b2f5-247d7117b89a"
+  >
+    <CAAComment> 
+      <Role>Adding type MSILGCCTCC on ExternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRSpecifications"
+    SuperName="TDRExternalRFQDocument"
+    Abstract="No"
+    Uuid="3694c4b6-f956-4797-9a01-1711c464d073"
+  >
+    <CAAComment> 
+      <Role>Adding type Specifications on ExternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRSHEDocument"
+    SuperName="TDRExternalRFQDocument"
+    Abstract="No"
+    Uuid="a3ab9de5-2c8d-44b1-897b-05b40c6e56b7"
+  >
+    <CAAComment> 
+      <Role>Adding type SHEDocument on ExternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+  <Class
+    Name="TDRLayout"
+    SuperName="TDRExternalRFQDocument"
+    Abstract="No"
+    Uuid="349f88de-21b5-47cb-9301-d916db5614a4"
+  >
+    <CAAComment> 
+      <Role>Adding type Layout on ExternalRFQDocument</Role>
+    </CAAComment>
+  </Class>
+</Package>
+

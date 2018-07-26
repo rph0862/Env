@@ -1,0 +1,6 @@
+Page Name	Registry Name	Description	Mime Type	Hidden (boolean)	Icon File
+wmsCustom.properties		contains schema I18N resource entries	text/plain	FALSE	
+wmsStringResource.properties		contains wms central custom string resource entries	text/plain	FALSE	
+wmsStringResource_en.properties		contains wms central custom string resource entries	text/plain	FALSE	
+emxFrameworkStringResource.properties		contains schema I18N resource entries	text/plain	FALSE	
+emxFrameworkStringResource_en.properties		contains schema I18N resource entries	text/plain	FALSE	

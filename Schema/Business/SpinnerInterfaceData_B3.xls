@@ -1,0 +1,2 @@
+Name	Registry Name	Parents (use "|" delim)	Abstract (boolean)	Description	Attributes (use "|" delim)	Types (use "|" delim)	Hidden (boolean)	Rels (use "|" delim)	Specializable(ReadOnly)	CustomerExposition(ReadOnly)	Icon File
+WMSDocumentExtension	WMSDocumentExtension		FALSE	Extension for Document type	WMSCheckoutDateTime	Document	FALSE		Yes	Programmer	

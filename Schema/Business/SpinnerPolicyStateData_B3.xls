@@ -1,0 +1,2 @@
+Policy Name	State Name	State Registry Name	Version (boolean)	Promote (boolean)	Checkout History (boolean)	Notify Users (use "|" delim)	Notify Message	Route User	Route Message	Minor Revision (boolean)	Major Revision (boolean)	Published (boolean)	Enforce Reserve Access (boolean)	Before State Name	Icon File
+WMSRevisedBOQ	Exists	Exists	FALSE	FALSE	FALSE					TRUE	TRUE	FALSE	FALSE		

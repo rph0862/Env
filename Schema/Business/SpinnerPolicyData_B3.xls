@@ -1,0 +1,2 @@
+Name	Registry Name	Description	Store	Hidden (boolean)	Types (use "|" delim)	Formats (use "|" delim)	Default Format	Locking (boolean)	Allstate (boolean)	Minor Rev Seq (use 'continue' for '...')	Major Rev Seq (use 'continue' for '...')	Delimiter	Icon File
+WMSRevisedBOQ	WMSRevisedBOQ	Policy to cover the life cycle of WMSRevisedBOQ	STORE	FALSE	WMSRevisedBOQ	generic | mxMedium Image | doc | dot | xls | xla | ppt | ppa | msg | Image | JT	generic	FALSE	TRUE	1,2,continue			

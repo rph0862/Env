@@ -1,0 +1,13 @@
+Policy Name	State Name	State Registry Name	Version (boolean)	Promote (boolean)	Checkout History (boolean)	Notify Users (use "|" delim)	Notify Message	Route User	Route Message	Minor Revision (boolean)	Major Revision (boolean)	Published (boolean)	Enforce Reserve Access (boolean)	Before State Name	Icon File
+WMSMaterialBill	Create	Create	TRUE	TRUE	TRUE					TRUE	TRUE	FALSE	FALSE	Review	
+WMSMaterialBill	Review	Review	TRUE	FALSE	TRUE					TRUE	TRUE	FALSE	FALSE	Approved	
+WMSMaterialBill	Approved	Approved	TRUE	FALSE	TRUE					TRUE	TRUE	FALSE	FALSE		
+TDRTechnicalDocument	PRIVATE	PRIVATE	TRUE	FALSE	TRUE					TRUE	TRUE	FALSE	FALSE	IN_WORK	
+TDRTechnicalDocument	IN_WORK	IN_WORK	TRUE	FALSE	TRUE					TRUE	TRUE	FALSE	FALSE	FROZEN	
+TDRTechnicalDocument	FROZEN	FROZEN	TRUE	FALSE	TRUE					TRUE	TRUE	FALSE	FALSE	RELEASED	
+TDRTechnicalDocument	RELEASED	RELEASED	TRUE	FALSE	TRUE					TRUE	TRUE	FALSE	FALSE	OBSOLETE	
+TDRTechnicalDocument	OBSOLETE	OBSOLETE	TRUE	FALSE	TRUE					TRUE	TRUE	FALSE	FALSE		
+Deliverable	Draft	Draft	TRUE	FALSE	TRUE					FALSE	TRUE	FALSE	FALSE	Active	
+Deliverable	Active	Active	TRUE	FALSE	TRUE					FALSE	TRUE	FALSE	FALSE	Review	
+Deliverable	Review	Review	TRUE	FALSE	TRUE					FALSE	TRUE	FALSE	FALSE	Complete	
+Deliverable	Complete	Complete	TRUE	FALSE	TRUE					FALSE	TRUE	FALSE	FALSE		

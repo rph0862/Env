@@ -1,0 +1,19 @@
+Name	Registry Name	Description	Hidden (boolean)
+WMSABSAdvaceSecuredStock	WMSABSAdvaceSecuredStock		FALSE
+WMSWOMaterialBill	WMSWOMaterialBill		FALSE
+WMSAbsDashboardWIP	WMSAbsDashboardWIP	This attribute specifies Agreement No	FALSE
+WMSAbsDashboardReviewSubmited	WMSAbsDashboardReviewSubmited	This attribute specifies Agreement No	FALSE
+WMSMBEForDashboard	WMSMBEForDashboard	MBE Dashboard	FALSE
+WMSWorkOrderSummary	WMSWorkOrderSummary	this attribute specify Value of Contract	FALSE
+WMSABSSecuredRecovery	WMSABSSecuredRecovery		FALSE
+WMSMBEActivities	WMSMBEActivities	MBE Measurements table	FALSE
+WMSEscalatedMaterialSummaryTable	WMSEscalatedMaterialSummaryTable		FALSE
+WMSMRMaterialWiseSummaryReport	WMSMRMaterialWiseSummaryReport		FALSE
+QuotationSummary	QuotationSummary	RTS Revision Summary Table	FALSE
+SCSRFQSupplierLineItemSummary	SCSRFQSupplierLineItemSummary	RFQ Quotation Supplier Line Items	FALSE
+APPRouteDocumentSummary	APPRouteDocumentSummary		FALSE
+WMSWorkOrderSDPSummaryTable	WMSWorkOrderSDPSummaryTable		FALSE
+APPPersonSearchResults	APPPersonSearchResults		FALSE
+WMSMaterialConsumption	WMSMaterialConsumption		FALSE
+PMCAssignedWBSTaskSummary	PMCAssignedWBSTaskSummary	WBS Task Summary	FALSE
+PMCProjectSpaceMyDesk	PMCProjectSpaceMyDesk	Project Summary	FALSE

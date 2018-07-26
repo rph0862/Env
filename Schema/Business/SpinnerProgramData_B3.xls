@@ -1,0 +1,14 @@
+Program Name	Registry Name	Description	Type (mql<default>/java/ekl/external)	Execute (immediate<default>/deferred)	Needs Bus Obj (boolean)	Downloadable (boolean)	Piped (boolean)	Pooled (boolean)	Hidden (boolean)	User	Icon File
+WMSConstants	WMSConstants		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSTendering			java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSWorkorder	WMSWorkorder	Used for all code related to Workorder	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSAbstractMeasurementBookEntry	WMSAbstractMeasurementBookEntry	JPO is to use for AMBE	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSMeasurementBookEntry	WMSMeasurementBookEntry	used for Measurement Process	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSImport	WMSImport	used for Import Process	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSMeasurementBookItem	WMSMeasurementBookItem	Used for all code related to Workorder	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSJob	WMSJob		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+emxProjectSpace	emxProjectSpace	Project Space JPO	java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE		
+emxCompany		Company JPO	java	immediate	FALSE	FALSE	FALSE	FALSE	TRUE		
+WMSNightlyJob	WMSNightlyJob		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+SourcingRFQ		RFQ JPO	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+SourcingLineItem		RFQ Line Item JPO	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		

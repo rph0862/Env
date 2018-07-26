@@ -1,0 +1,2 @@
+Role Name	Registry Name	Description	"Parent Roles (use ""|"" delim)"	"Child Roles (use ""|"" delim)"	"Assignments (use ""|"" delim)"	Site	Hidden (boolean)	Role Type (Project/Org)	maturity (none/public/protected/private)	category (none/oem/goldpartner/partner/supplier/customer/contractor)	Icon File
+Civil Buyer	Civil Buyer	Civil Buyer role derived from Buyer for MSIL Civil	Buyer		294896  | 294772 | 294756 | 130192 | 190063		FALSE				

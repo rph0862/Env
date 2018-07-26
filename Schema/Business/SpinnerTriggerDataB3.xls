@@ -1,0 +1,4 @@
+Schema Type	Schema Name	State (for Policy)	Trigger Event	Trigger Type (check / override / action)	Program	Input
+policy	RFQ	Initial Review	promote	check	emxTriggerManager	PolicyRequestToSupplierStateInitialPackageReviewPromoteCheck PolicyRFQInitialReviewPromoteCheck
+type	Document		checkout	action	emxTriggerManager	TypeDOCUMENTSCheckoutAction TypeDocumentCheckoutAction
+type	Thread		create	action	emxTriggerManager	TypeAllCreateAction TypeThreadCreateAction

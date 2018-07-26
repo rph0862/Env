@@ -1,0 +1,30 @@
+TDRCapital.ConcernedSCDept.BusinessUnit=SC-RCI
+TDRCapital.CommercialQuoteOpener.Roles=DDVM,Commercial Buyer
+
+TDRCapital.SCDepartmentLead.Roles=role_MSILDPM
+
+TDR.CronJOB.OpenCommercialRFQPending.Duration = 3
+
+TDR.CronJOB.DueDateOffset = 3
+
+TDR.CronJOB.AutoReturnQuoteOnDueDatePass = 1
+
+TDR.RFQ.CommercialQuoteOpener = 159760
+
+TDR.DepartementHead = TestPM
+
+#RFQ Reports
+TDR.RFQSummary.DocumentName = SummaryReport
+TDR.Workspace.StandardDocuments.Name = Standard Documents
+TDR.RFQReport.DocumentName = SourcingReport
+TDR.CommercialReport.DocumentName = CommercialReport
+TDR.Application.URL = https://mpowerqa.maruti.co.in
+
+#Ringi Integration QA
+MSILRingiIntegration.Database.Driver=oracle.jdbc.driver.OracleDriver
+MSILRingiIntegration.Database.Server=jdbc:oracle:thin:@10.194.46.228:1521:STPLM01
+MSILRingiIntegration.Database.User=PEADM
+MSILRingiIntegration.Database.Password=PEADM
+MSILRingiIntegration.Database.Table=ffin_rngi
+MSILRingiIntegration.Database.DBLink=STPLM01_SNAPSR1
+MSILRingiIntegration.Database.Query=select rn.rngi_no,rn.rngi_level,rn.rngi_status,rn.rngi_app_rej_on

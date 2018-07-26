@@ -1,0 +1,27 @@
+# PE Integration Settings
+
+MSILPEIntegration.EnoviaV6R2011xService.Path=http://10.1.50.55:9081/enovia/services/MSILPEIntegrations
+
+#MSILPEIntegration.EnoviaV6R2011xService.Path=http://10.1.50.60/enovia/services/MSILPEIntegrations
+
+
+
+# PO Integration Settings
+
+MSILPOIntegration.Database.Driver=oracle.jdbc.driver.OracleDriver
+
+MSILPOIntegration.Database.Server=jdbc:oracle:thin:@10.1.50.59:1521:PLMPROD
+
+MSILPOIntegration.Database.User=peadm
+
+
+
+# Defect Management Settings
+
+MSILDefectManagementIntegration.Database.Driver=oracle.jdbc.driver.OracleDriver
+
+MSILDefectManagementIntegration.Database.Server=jdbc:oracle:thin:@10.1.50.59:1521:PLMPROD
+
+MSILDefectManagementIntegration.Database.User=peadm
+
+MSILDefectManagementIntegration.Database.Query=select * from npd.npds_Dfmd

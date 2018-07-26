@@ -1,0 +1,2 @@
+Schema Type	Schema Name	State (for Policy)	Trigger Event	Trigger Type (check / override / action)	Program	Input
+attribute	Award Status		modify	action	emxTriggerManager	AttributeAwardStatusModifyAction

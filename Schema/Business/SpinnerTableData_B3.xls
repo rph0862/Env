@@ -1,0 +1,15 @@
+Name	Registry Name	Description	Hidden (boolean)
+WMSABME		MBE Measurements preview bill table	FALSE
+WMSBOQViewTable	WMSBOQViewTable	Schedule Summary	FALSE
+WMSSORViewTable	WMSSORViewTable		FALSE
+WMSWOSummary		this attribute specify Value of Contract	FALSE
+WMSRFQSearchResults			FALSE
+WMSSupplierSummary			FALSE
+PMCFolderSummary	PMCFolderSummary	Folder Summary Page	FALSE
+WMSLineItemSummary	WMSLineItemSummary	Line Item Summary Table	FALSE
+WMSSORViewTableForLineItem	WMSSORViewTableForLineItem		FALSE
+WMSRevisedBOQSummary	WMSRevisedBOQSummary	Revised BOQ Summary Table	FALSE
+WMSAbsRelatedDocumentsSummaryTable	WMSAbsRelatedDocumentsSummaryTable		FALSE
+WMSRFQQuotationCompare	WMSRFQQuotationCompare	Line Item Summary Table	FALSE
+WMSQuotationSupplierLineItemSummary		Associated Supplier RFQ Line Item Summary Table with Part or Task	FALSE
+WMSRFQSupplierLineItemSummary		RFQ Quotation Supplier Line Items	FALSE

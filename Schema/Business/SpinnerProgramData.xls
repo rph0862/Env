@@ -1,0 +1,27 @@
+Program Name	Registry Name	Description	Type (mql<default>/java/ekl/external)	Execute (immediate<default>/deferred)	Needs Bus Obj (boolean)	Downloadable (boolean)	Piped (boolean)	Pooled (boolean)	Hidden (boolean)	User	Icon File
+MSILAccessRights	MSILAccessRights		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSWorkorder	WMSWorkorder		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSMaterial	WMSMaterial		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSAbstractMeasurementBookEntry	WMSAbstractMeasurementBookEntry		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+TDRCapital	TDRCapital		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+SourcingRFQQuotation			java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+TDRCapitalReport	TDRCapitalReport		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+emxProjectMember	emxProjectMember		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+emxProjectSpace	emxProjectSpace		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSImport	WMSImport		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSSupplierDevelopmentPlan	WMSSupplierDevelopmentPlan		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+emxInboxTask	emxInboxTask		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSMeasurementBookEntry	WMSMeasurementBookEntry		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSUtil	WMSUtil		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+TDRConstants	TDRConstants		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+WMSNightlyJob	WMSNightlyJob		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+TDRUtil	TDRUtil		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+MSILProject	MSILProject	This JPO contains methods which perform different operations related to Project Concept and Project Space.	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+emxProjectTemplate	emxProjectTemplate		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+MSILUserDashboard	MSILUserDashboard	JPO for user Dashboard	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+MSILTask	MSILTask	This JPO contains methods which perform different operations related to WBS Task	java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+emxTask	emxTask		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+MSILGraphicalMainDashboard_GD	MSILGraphicalMainDashboard_GD		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+MSILUtility	MSILUtility		java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		
+<<emxPreInstallChecks>>		
+MSILExportProjectData			java	immediate	FALSE	FALSE	FALSE	FALSE	FALSE		

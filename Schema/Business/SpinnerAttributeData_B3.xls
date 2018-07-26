@@ -1,0 +1,15 @@
+Attribute Name	Registry Name	Scope	Owner	Type	Description	Default	Ranges (use "|" delim)	Multiline (boolean)	Hidden (boolean)	Dimension	Max Length (int)	ResetonClone (boolean)	ResetonRevision (boolean)	Icon File	ValueType	CustomerExposition(ReadOnly)	Protection(ReadOnly)
+WMSCategoryList	WMSCategoryList			string	Category List			FALSE	FALSE		0	FALSE	FALSE				
+WMSCheckoutDateTime	WMSCheckoutDateTime			timestamp				FALSE	FALSE		0	TRUE	TRUE				
+WMSRFQBudget	WMSRFQBudget			real				FALSE	FALSE		0	FALSE	FALSE				
+WMSTotalValue	WMSTotalValue			real	attribute used to store total value for revised BOQ			FALSE	FALSE		0	FALSE	FALSE				
+WMSRingiAmount	WMSRingiAmount			real	attribute used to store ringi amount			FALSE	FALSE		0	FALSE	FALSE				
+WMSRingiStatus	WMSRingiStatus			string	attribute used to store ringi status			FALSE	FALSE		0	FALSE	FALSE				
+WMSRevisedBOQStatus	WMSRevisedBOQStatus			string	attribute used to store revised BOQ status			FALSE	FALSE		0	FALSE	FALSE				
+WMSTurnover	WMSTurnover			real				FALSE	FALSE		0	FALSE	FALSE				
+WMSConsiderforContractsbelow10MRs	WMSConsiderforContractsbelow10MRs			string	attribute used to Consider for Contracts below 10 MRs	No	= No | = Yes	FALSE	FALSE		0	FALSE	FALSE				
+WMSConsiderforContractsbetween10To100MRs	WMSConsiderforContractsbetween10To100MRs			string	attribute used to Consider for Contracts below 10-100 MRs	No	= No | = Yes	FALSE	FALSE		0	FALSE	FALSE				
+WMSConsiderforContractsAbove100MRs	WMSConsiderforContractsAbove100MRs			string	attribute used to Consider for Contracts Above 100 MRs	No	= No | = Yes	FALSE	FALSE		0	FALSE	FALSE				
+WMSMaximumContractValue	WMSMaximumContractValue			real	attribute used to calculate the value of Maximum Contract value			FALSE	FALSE		0	FALSE	FALSE				
+WMSIsRevisedBOQ 	WMSIsRevisedBOQ 			string	Indicates BOQ item is revised or not	FALSE	= TRUE | = FALSE	FALSE	TRUE		0	FALSE	FALSE				
+TDRQuoteSubmissionDate	TDRQuoteSubmissionDate			timestamp				FALSE	TRUE		0	FALSE	FALSE				

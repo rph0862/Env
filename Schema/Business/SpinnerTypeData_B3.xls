@@ -1,0 +1,7 @@
+Name	Registry Name	Parent Type	Abstract (boolean)	Description	Attributes (use "|" delim)	Methods (use "|" delim)	Hidden (boolean)	Sparse (boolean)	Maybecomposed(boolean)	Specializable(ReadOnly)	CustomerExtensible(ReadOnly)	CustomerExposition(ReadOnly)	Icon File
+Company	Company	Organization	FALSE	A Supplier Company object with the corresponding persons and locations	WMSConsiderforContractsbelow10MRs | WMSTurnover | WMSCategoryList | IMDS Company ID | WMSConsiderforContractsAbove100MRs | WMSMaximumContractValue | WMSConsiderforContractsbetween10To100MRs | Secondary Vaults | WMSSupplierGSTNumber | JAMP Company ID		FALSE	FALSE				Programmer	
+RFQ	RequestToSupplier		FALSE	This is a Placeholder of the parts that the company wishes to procure	TDRQuoteSubmissionDate | WMSCategoryList		FALSE	FALSE		No	No	Programmer	
+Line Item	Line Item		FALSE	Line Item	Originator | Required Availability | Annual Part Quantity | Production Purpose | Unit of Measure | Primary Key | Secondary Keys | Receiving Plant | Entered Name | Line Item XML | WMSRFQBudget		FALSE	FALSE		No	No	Programmer	
+WMSRevisedBOQ	WMSRevisedBOQ		FALSE		WMSTotalValue | WMSRingiAmount | WMSRingiStatus | WMSRevisedBOQStatus | MSILRingiNumber		FALSE	FALSE		No	No	Programmer	
+WMSMeasurementTask	WMSMeasurementTask		FALSE	Activity against which the SOR Item is maintained	WMSIsRevisedBOQ 		FALSE	FALSE					
+AG1	AG1	Attribute Group	FALSE	AG1	Currency | Rate		FALSE	FALSE					

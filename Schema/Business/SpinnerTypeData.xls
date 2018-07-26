@@ -1,0 +1,3 @@
+Name	Registry Name	Parent Type	Abstract (boolean)	Description	Attributes (use "|" delim)	Methods (use "|" delim)	Hidden (boolean)	Sparse (boolean)	Maybecomposed(boolean)	Specializable(ReadOnly)	CustomerExtensible(ReadOnly)	CustomerExposition(ReadOnly)	Icon File
+Company	Company	Organization	FALSE	A Supplier Company object with the corresponding persons and locations	WMSSupplierGSTNumber		FALSE	FALSE				Programmer	
+GST	GST	Attribute Group	FALSE		GST-(SCGST/CGST/IGST)		FALSE	FALSE	FALSE				

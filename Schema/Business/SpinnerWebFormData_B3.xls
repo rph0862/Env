@@ -1,0 +1,7 @@
+Name	Registry Name	Description	Hidden (boolean)	Types (use "|" delim)
+SCSCreateRFQForm	SCSCreateRFQForm		FALSE	
+SCSRFQProperties	SCSRFQProperties		FALSE	
+WMSAddWorkOrderRFQDetails	WMSAddWorkOrderRFQDetails		FALSE	
+type_Company	type_Company		FALSE	
+WMSAbstractBillDocumentDetails	WMSAbstractBillDocumentDetails		FALSE	
+TDRSCSRFQProperties	TDRSCSRFQProperties		FALSE	
